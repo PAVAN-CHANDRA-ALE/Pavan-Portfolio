@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="orange" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-------------------------------           ------------------------------>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+      integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--------------------------------------          --------------------->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>My Portfolio😍</title>
+  </head>
+  <body>
+    <!--------------------------------------- Navbar ------------------------------>
+
+    <nav id="desk-navbar">
+      <div class="logo">
+        <div class="logo-img">
+          <img src="./images/android-chrome-512x512.png" alt="" />
+        </div>
+        <div class="logo-text">Pavan Ale</div>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="mobile-navbar">
+      <div class="logo">
+        <!-- <div class="logo-img">
+          <img
+            src="./images/android-chrome-512x512.png"
+            loading="lazy"
+            alt=""
+          />
+        </div> -->
+        <div class="logo-text">Pavan Ale</div>
+      </div>
+      <div class="menu-icon" id="menuIcon" onclick="toggleMenu()">
+        <i class="ri-menu-3-fill"></i>
+      </div>
+      <div class="menu-links" id="menuLinks">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="profile">
+        <div class="profile-img">
+          <img src="./images/Profile cartoon.jpg" alt="" />
+        </div>
+
+        <div class="profile-details">
+          <div class="profile-info">
+            <p class="text-p1">Hello, I'm</p>
+            <h1 class="title">Pavan Chandra Ale</h1>
+            <p class="text-p2">Frontend Developer</p>
+          </div>
+          <div class="btn-container">
+            <a class="cv-info-btn" href="./PAVAN's Resume (7).pdf" download
+              >Download CV</a
+            >
+            <a class="contact-info" href="#contacts">Contact info</a>
+          </div>
+          <div class="social-container">
+            <a
+              href="https://www.linkedin.com/in/pavanchandra-ale/"
+              class="linkedin"
+              target="_blank"
+              ><img src="./images/linkedin.png" alt=""
+            /></a>
+            <a
+              href="https://github.com/PAVAN-CHANDRA-ALE"
+              class="github"
+              target="_blank"
+              ><img src="./images/github.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <!--------------------------------------- Abouts ---------------------------------->
+
+      <div id="about">
+        <div class="about-info">
+          <p id="p1-text">Get To Know More</p>
+          <h1 class="title">About Me</h1>
+        </div>
+        <div class="about-details">
+          <div class="about-details-img">
+            <img src="./images/Profile cartoon.jpg" alt="" />
+          </div>
+          <div class="about-detail-info">
+            <div class="aboutme-content">
+              <div class="abt-experience">
+                <div class="exp-logo">
+                  <img src="./images/experience.png" alt="" />
+                </div>
+                <div class="exp-desc">
+                  <h3 class="exp-title">Experience</h3>
+                  <div class="exp-info">
+                    <p>
+                      6+ months <br />
+                      Frontend Development
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="education">
+                <div class="edu-logo">
+                  <img src="./images/education.png" alt="" />
+                </div>
+                <div class="edu-desc">
+                  <h3 class="edu-title">Education</h3>
+                  <div class="edu-info">
+                    <p>
+                      Higher Education <br />Bachelor of <br />Engineering (ECE)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="aboutme-desc">
+              I am Studying my B.E in Electronics and Communication Engineering
+              with a 7.0 GPA, where I focused on digital electronics, analog
+              electronics, Python programming, data structures, compilers, and
+              algorithms. In addition, I have completed courses in web
+              development, Javascript, C++ , Oops, and DSA from Udemy. I am also
+              proficient in English, Telugu, and Hindi.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------------------------------- Experiences ------------------------------>
+
+      <div id="experience">
+        <p class="exp-tagline">Explore My</p>
+        <h1 class="exp-title">Experience</h1>
+        <div class="exp-description">
+          <div class="exp-desc-one">
+            <h2 class="exp-desc-title">Development Tools</h2>
+            <div class="exp-desc-info">
+              <article>
+                <div class="exp-desc-icon">
+                  <img src="./images/checkmark.png" alt="" />
+                </div>
+                <div class="exp-desc-skills">
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp-desc-icon">
+                  <img src="./images/checkmark.png" alt="" />
+                </div>
+                <div class="exp-desc-skills">
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp-desc-icon">
+                  <img src="./images/checkmark.png" alt="" />
+                </div>
+                <div class="exp-desc-skills">
+                  <h3>JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp-desc-icon">
+                  <img src="./images/checkmark.png" alt="" />
+                </div>
+                <div class="exp-desc-skills">
+                  <h3>BOOTSTRAP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp-desc-icon">
+                  <img src="./images/checkmark.png" alt="" />
+                </div>
+                <div class="exp-desc-skills">
+                  <h3>CPP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp-desc-icon">
+                  <img src="./images/checkmark.png" alt="" />
+                </div>
+                <div class="exp-desc-skills">
+                  <h3>DSA</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="exp-desc-two">
+            <h2 class="exp-desc-title">Frontend Development</h2>
+            <div class="exp-desc-info">
+              <article>
+                <div class="exp-desc-icon">
+                  <img src="./images/checkmark.png" alt="" />
+                </div>
+                <div class="exp-desc-skills">
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp-desc-icon">
+                  <img src="./images/checkmark.png" alt="" />
+                </div>
+                <div class="exp-desc-skills">
+                  <h3>ExpressJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp-desc-icon">
+                  <img src="./images/checkmark.png" alt="" />
+                </div>
+                <div class="exp-desc-skills">
+                  <h3>ReactJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp-desc-icon">
+                  <img src="./images/checkmark.png" alt="" />
+                </div>
+                <div class="exp-desc-skills">
+                  <h3>NodeJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------------------------- Projects ------------------------------>
+
+      <div id="projects">
+        <p class="p1-text">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="project-containers">
+          <div class="project-container1">
+            <div class="project-img">
+              <img src="./images/dogMate.jpg" loading="lazy" alt="" />
+            </div>
+            <h1 class="project-title">dogMate</h1>
+            <div class="project-links">
+              <a class="Github" href="#" target="_blank">Github</a>
+              <a
+                class="live-link"
+                href="https://pavan-chandra-ale.github.io/dogMate4/"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="project-container2">
+            <div class="project-img">
+              <img src="./images/Amazon-Clone.jpg" loading="lazy" alt="" />
+            </div>
+            <h1 class="project-title">Amazon Clone</h1>
+            <div class="project-links">
+              <a class="Github" href="#" target="_blank">Github</a>
+              <a
+                class="live-link"
+                href="https://pavan-chandra-ale.github.io/Amazon-Clone/"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+          <div class="project-container3">
+            <div class="project-img">
+              <img src="./images/Profile cartoon.jpg" loading="lazy" alt="" />
+            </div>
+            <h1 class="project-title">dogMate</h1>
+            <div class="project-links">
+              <a class="Github" href="#" target="_blank">Github</a>
+              <a class="live-link" href="#" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------------------------------- Contacts ------------------------------>
+
+      <div id="contacts">
+        <p class="p1-text">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <div class="cont-info">
+          <div class="cont-email">
+            <a href="mailto:alepavanchandra863@gmail.com" target="_blank">
+              <div class="cont-icon">
+                <img src="./images/email.png" alt="" />
+              </div>
+              alepavanchandra863@gmail.com
+            </a>
+          </div>
+
+          <div class="cont-linkedIn">
+            <a
+              href="https://www.linkedin.com/in/pavanchandra-ale/"
+              target="_blank"
+            >
+              <div class="cont-icon">
+                <img src="./images/linkedin.png" alt="" />
+              </div>
+              LinkedIn</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="extra-spacing"></div> -->
+      <div class="backtotop"><a href="#">Back To Top</a></div>
+    </main>
+
+    <!--------------------------------------- Footers ---------------------------------->
+
+    <footer>
+      <div class="footer-nav">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </div>
+      <div><p>Copyright &#169; 2023 Pavan Ale. All Rights Reserved.</p></div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
